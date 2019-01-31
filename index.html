@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" type="text/css" href="style/mystyle.css">
+</head>
+<body>
+
+<audio src="" controls id="audioPlayer">
+    Sorry, your browser doesn't support html5!
+
+    <script type="text/javascript" src="music.json"></script>
+    <source src="https://kraken.pedf.cuni.cz/<xxx>/<yyy>.mp3" type="audio/mpeg">
+    <script type="text/javascript" src="localStorage.js"></script>
+
+    
+
+
+</audio>
+<ul id="playlist">
+    <li class="current-song"><a href="audio/chinaski-vrchlabi.mp3">Chinaski - Vrchlabí</a></li>
+    <li><a href="audio/Liquido%20-%20Narcotic.mp3">Liquido - Narcotic</a></li>
+    <li><a href="audio/Joan%20Jett%20-%20I%20Love%20Rock%20'N%20Roll.mp3">Joan Jett - I love Rock´n Roll</a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script src="audioPlayer.js"></script>
+<script>
+    audioPlayer();
+</script>
+</body>
+</html>
